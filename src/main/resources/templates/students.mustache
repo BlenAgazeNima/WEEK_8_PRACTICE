@@ -6,8 +6,18 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        td, th {
+            border: 1px solid #dddddd;
+        }
+    </style>
 </head>
 <body>
+<table>
 <thead>
 <tr>
     <th>ID</th>
@@ -26,6 +36,7 @@
 {{/students}}
 </tbody>
 
+</table>
 
 <form action="/students" method="post">
     <div>
