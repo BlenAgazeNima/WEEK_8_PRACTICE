@@ -17,6 +17,23 @@
     </style>
 </head>
 <body>
+<form action="/students" method="post">
+    <div>
+        <label>Student id</label>
+        <input type="number" name="id" placeholder="Student id">
+    </div>
+
+    <div>
+        <label>Student name</label>
+        <input type="text" name="name" placeholder="Student name">
+    </div>
+
+    <div>
+        <label>Student email</label>
+        <input type="text" name="email" placeholder="Student email">
+    </div>
+    <button type="submit">Submit</button>
+</form>
 <table>
 <thead>
 <tr>
@@ -38,22 +55,6 @@
 
 </table>
 
-<form action="/students" method="post">
-    <div>
-        <label>Student id</label>
-        <input type="number" name="id" placeholder="Student id">
-    </div>
 
-    <div>
-        <label>Student name</label>
-        <input type="text" name="name" placeholder="Student name">
-    </div>
-
-    <div>
-        <label>Student email</label>
-        <input type="text" name="email" placeholder="Student email">
-    </div>
-    <button type="submit">Submit</button>
-</form>
 </body>
 </html>
